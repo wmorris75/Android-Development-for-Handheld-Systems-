@@ -1,0 +1,58 @@
+Time Worked: 240 minutes.  Last Step Completed 35.
+
+What was the average load time under each network speed? about 3.5 seconds
+
+Does the emulator really seem to affect network speed? It didn't affect the speed to any noticeable degree.
+
+
+What is the height of the View tree? height of the tree is 8
+
+Examine the View showing the plus(+) buttonn. What kind of View is its parent? (3) Linear Layout
+
+How many Views does its parent contain? Has 4 children
+
+What is the relative index (position) of the plus(+) button view within its parent? [362,668][480,800]
+
+Identify one instance of each fundamental component. 
+Identify its corresponding source code file and find the line of code that defines the class as a subtype of one of the fundamental components. 
+One instance is the AlarmClock. This is found in line 655 of the AlarmClock.java file.
+
+Look in the res directory and find how many layout directories are there? 3 Layout directories are there.
+
+Which specific device sizes and/or orientations would use each of the different layout directories you've found?
+For the Layout - there are used on phones
+For Layout sw600dp - there are used for tablets
+For Layout-land - for Phones when landscape
+
+How many different values directories are there? 56 values directories
+
+Find 2 examples of resource strings that can be configured for different languages.
+2 examples are: values-af from the desk_clock_button_description
+                 values-ar from the night_mode_summary 
+
+Look at R.java file that was generated for this application. there is a field in the id class called "cities". In which function and class does this field get used? How is it referenced in the applicaiton code?
+It get used in the class CityObj by its function CityObj(SharedPreferences prefs, int index)
+
+
+What is the log tag used by this application's main Activity? Where do you see that in the application's source code? 
+The Log Tag is WikiNotes. It is seen in the WikiNotes.java source code.The message is Exiting onCreate()
+
+
+
+What is the message associated with the first Log entry emitted when this application starts running?
+
+
+How many objects have been created? 44,463
+Which type of Object has by allocated most frequently? data object
+How much memory has been allocated for this type of object? 788,125 KB
+
+find a method that is part of the WikiNotes?
+What is the name of the Method?
+In what file is the source code of the method?
+what are teh exclusive real time and the inclusive real time spent in this method? Why are they different?
+
+
+What are the values of "mathResult" before and after line 94? 
+There was no value before and there was 96 after line 94
+
+Yes, the later result is correct.

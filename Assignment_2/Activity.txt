@@ -1,0 +1,20 @@
+a. List the Activity lifecycle methods that have been invoked on ActivityOne and on ActivityTwo, since the application started, in the order that they occurred.
+OnCreate (), OnStart(), onResume(), onPause(), onStop() for Activity one
+OnCreate (), OnStart(), onResume() for Activity two
+
+
+Next, suppose the user navigates back to ActivityOne by pressing the “Close Activity” Button of ActivityTwo. ActivityTwo closes and then ActivityOne reappears. Starting where you left off after the previous step: 
+a. List the Activity lifecycle methods that have been invoked on ActivityOne and on ActivityTwo, in the order they occurred.
+
+onStart(), onResume() and onRestart () for Activity one after close activity two was pressed. onPause(),onStop() and onDestroy() method was called for Activity 2.
+
+Next, the user presses the Button to start ActivityTwo again. Once ActivityTwo appears, the user presses the Home Key on the device. Starting where you left off after the previous step: a. List the Activity lifecycle methods that have been invoked on ActivityOne and on ActivityTwo, in the order they occurred.
+
+OnCreate (), OnStart(), onResume() for Activity Two
+Activity one goes into the onPause(), onStop().
+
+
+e) Next, the user starts the application again, by clicking on its icon in the Launcher. Once the application has restarted, and starting where you left off after the previous step: a. List the Activity lifecycle methods that have been invoked on ActivityOne and on ActivityTwo, in the order they occurred.
+
+onPause(), onStop(), onRestart(), OnStart(), onResume() for Activity Two
+Activity One is onPause(), onStop.

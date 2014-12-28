@@ -1,0 +1,2 @@
+04-24 08:21:21.385: I/Lab-Graphics(1649): Creating Bubble at: x:250.0 y:250.0
+04-24 08:21:22.901: I/Lab-Graphics(1649): Creating Bubble at: x:500.0 y:500.0
